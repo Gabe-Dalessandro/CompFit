@@ -79,11 +79,6 @@ class RegisterViewController: UIViewController {
             } //let dataTask
             
             dataTask.resume()
-            
-            transitionToOnboarding()
-            
-
-  
         }
     }
     
@@ -103,16 +98,6 @@ class RegisterViewController: UIViewController {
             
         return ""
     }
-
-    
-    func transitionToOnboarding() {
-        let swipeLayout = UICollectionViewFlowLayout()
-        swipeLayout.scrollDirection = .horizontal
-        let swipingVC = SwipingCollectionViewController(collectionViewLayout: swipeLayout)
-        
-        self.show(swipingVC, sender: self)
-    }
-    
     
     
     /*

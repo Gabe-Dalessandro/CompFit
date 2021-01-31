@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		0009565925BBD3690045ECE2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009565825BBD3690045ECE2 /* RegisterViewController.swift */; };
 		00311B3E25C1062A00239101 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00311B3D25C1062A00239101 /* OnboardingViewController.swift */; };
-		00311B4125C11DDB00239101 /* SwipingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00311B4025C11DDB00239101 /* SwipingCollectionViewController.swift */; };
-		00311B4425C1387B00239101 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00311B4325C1387B00239101 /* OnboardingCell.swift */; };
 		003E547E25BFDB4700B95672 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E547D25BFDB4700B95672 /* LoginViewController.swift */; };
 		0099471825BCF324007D4A99 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099471725BCF324007D4A99 /* UserModel.swift */; };
-		00DDDEC325C28EE000CA1E5F /* OnboardingCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DDDEC225C28EE000CA1E5F /* OnboardingCustomViews.swift */; };
 		00E8C4D225AE7E0100CAB507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D125AE7E0100CAB507 /* AppDelegate.swift */; };
 		00E8C4D425AE7E0100CAB507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D325AE7E0100CAB507 /* SceneDelegate.swift */; };
 		00E8C4D625AE7E0100CAB507 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D525AE7E0100CAB507 /* WelcomeViewController.swift */; };
@@ -25,11 +22,8 @@
 /* Begin PBXFileReference section */
 		0009565825BBD3690045ECE2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		00311B3D25C1062A00239101 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		00311B4025C11DDB00239101 /* SwipingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingCollectionViewController.swift; sourceTree = "<group>"; };
-		00311B4325C1387B00239101 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
 		003E547D25BFDB4700B95672 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0099471725BCF324007D4A99 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		00DDDEC225C28EE000CA1E5F /* OnboardingCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCustomViews.swift; sourceTree = "<group>"; };
 		00E8C4CE25AE7E0100CAB507 /* CompFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E8C4D125AE7E0100CAB507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00E8C4D325AE7E0100CAB507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +83,6 @@
 				0009565825BBD3690045ECE2 /* RegisterViewController.swift */,
 				003E547D25BFDB4700B95672 /* LoginViewController.swift */,
 				00311B3D25C1062A00239101 /* OnboardingViewController.swift */,
-				00311B4025C11DDB00239101 /* SwipingCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				00E8C4D725AE7E0100CAB507 /* Main.storyboard */,
-				00311B4325C1387B00239101 /* OnboardingCell.swift */,
-				00DDDEC225C28EE000CA1E5F /* OnboardingCustomViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,11 +175,8 @@
 			files = (
 				003E547E25BFDB4700B95672 /* LoginViewController.swift in Sources */,
 				00E8C4D625AE7E0100CAB507 /* WelcomeViewController.swift in Sources */,
-				00311B4425C1387B00239101 /* OnboardingCell.swift in Sources */,
 				00E8C4D225AE7E0100CAB507 /* AppDelegate.swift in Sources */,
-				00DDDEC325C28EE000CA1E5F /* OnboardingCustomViews.swift in Sources */,
 				00E8C4D425AE7E0100CAB507 /* SceneDelegate.swift in Sources */,
-				00311B4125C11DDB00239101 /* SwipingCollectionViewController.swift in Sources */,
 				00311B3E25C1062A00239101 /* OnboardingViewController.swift in Sources */,
 				0099471825BCF324007D4A99 /* UserModel.swift in Sources */,
 				0009565925BBD3690045ECE2 /* RegisterViewController.swift in Sources */,
