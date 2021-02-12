@@ -7,70 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		0009565925BBD3690045ECE2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009565825BBD3690045ECE2 /* RegisterViewController.swift */; };
 		00311B3E25C1062A00239101 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00311B3D25C1062A00239101 /* OnboardingViewController.swift */; };
 		003E547E25BFDB4700B95672 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E547D25BFDB4700B95672 /* LoginViewController.swift */; };
 		0099471825BCF324007D4A99 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099471725BCF324007D4A99 /* UserModel.swift */; };
-=======
-		0065E75225D3969F009A1A49 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065E75125D3969F009A1A49 /* AddViewController.swift */; };
-		0065E75525D3977C009A1A49 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065E75425D3977C009A1A49 /* ChallengesViewController.swift */; };
-		0065E75825D397F3009A1A49 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065E75725D397F3009A1A49 /* ProfileViewController.swift */; };
-		0099471825BCF324007D4A99 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099471725BCF324007D4A99 /* UserModel.swift */; };
-		00A0D5AA25D37CE300C6F561 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0D5A925D37CE300C6F561 /* DashboardViewController.swift */; };
-		00AC7E7A25D3861F009755EA /* SocialFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AC7E7925D3861F009755EA /* SocialFeedViewController.swift */; };
-		00B6585C25D085BD000DC811 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6585B25D085BC000DC811 /* Constants.swift */; };
-		00B6585F25D09979000DC811 /* UserDefaults_Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6585E25D09978000DC811 /* UserDefaults_Helpers.swift */; };
-		00DB543025CDF3600068F7E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB542F25CDF3600068F7E7 /* MainTabBarController.swift */; };
-		00DB543325CDF3DA0068F7E7 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB543225CDF3DA0068F7E7 /* MainNavigationController.swift */; };
-		00DB544025CDFEA30068F7E7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB543F25CDFEA30068F7E7 /* WelcomeViewController.swift */; };
-		00DB544325CE082A0068F7E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB544225CE082A0068F7E7 /* LoginViewController.swift */; };
-		00DB544625CE1A010068F7E7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB544525CE1A010068F7E7 /* RegisterViewController.swift */; };
-		00DB545025CE1F330068F7E7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB544F25CE1F330068F7E7 /* OnboardingViewController.swift */; };
-		00DB545525CE202A0068F7E7 /* BirthdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB545425CE202A0068F7E7 /* BirthdateView.swift */; };
-		00DB545825CE204C0068F7E7 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB545725CE204C0068F7E7 /* GenderView.swift */; };
-		00DB545B25CE20670068F7E7 /* WorkoutExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB545A25CE20670068F7E7 /* WorkoutExperienceView.swift */; };
-		00DB545E25CE20880068F7E7 /* WorkoutTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB545D25CE20870068F7E7 /* WorkoutTypeView.swift */; };
-		00DB546125CE20A20068F7E7 /* IntensityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB546025CE20A20068F7E7 /* IntensityView.swift */; };
-		00DB546425CE20BD0068F7E7 /* AppleHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB546325CE20BD0068F7E7 /* AppleHealthView.swift */; };
->>>>>>> project_without_storyboard
 		00E8C4D225AE7E0100CAB507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D125AE7E0100CAB507 /* AppDelegate.swift */; };
 		00E8C4D425AE7E0100CAB507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D325AE7E0100CAB507 /* SceneDelegate.swift */; };
+		00E8C4D625AE7E0100CAB507 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8C4D525AE7E0100CAB507 /* WelcomeViewController.swift */; };
+		00E8C4D925AE7E0100CAB507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E8C4D725AE7E0100CAB507 /* Main.storyboard */; };
 		00E8C4DB25AE7E0600CAB507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E8C4DA25AE7E0600CAB507 /* Assets.xcassets */; };
+		00E8C4DE25AE7E0600CAB507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E8C4DC25AE7E0600CAB507 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		0009565825BBD3690045ECE2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		00311B3D25C1062A00239101 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		003E547D25BFDB4700B95672 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0099471725BCF324007D4A99 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-=======
-		0065E75125D3969F009A1A49 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		0065E75425D3977C009A1A49 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
-		0065E75725D397F3009A1A49 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		0099471725BCF324007D4A99 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		00A0D5A925D37CE300C6F561 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		00AC7E7925D3861F009755EA /* SocialFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedViewController.swift; sourceTree = "<group>"; };
-		00B6585B25D085BC000DC811 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		00B6585E25D09978000DC811 /* UserDefaults_Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_Helpers.swift; sourceTree = "<group>"; };
-		00DB542F25CDF3600068F7E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		00DB543225CDF3DA0068F7E7 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		00DB543F25CDFEA30068F7E7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		00DB544225CE082A0068F7E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		00DB544525CE1A010068F7E7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		00DB544F25CE1F330068F7E7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		00DB545425CE202A0068F7E7 /* BirthdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdateView.swift; sourceTree = "<group>"; };
-		00DB545725CE204C0068F7E7 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
-		00DB545A25CE20670068F7E7 /* WorkoutExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExperienceView.swift; sourceTree = "<group>"; };
-		00DB545D25CE20870068F7E7 /* WorkoutTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTypeView.swift; sourceTree = "<group>"; };
-		00DB546025CE20A20068F7E7 /* IntensityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntensityView.swift; sourceTree = "<group>"; };
-		00DB546325CE20BD0068F7E7 /* AppleHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthView.swift; sourceTree = "<group>"; };
->>>>>>> project_without_storyboard
 		00E8C4CE25AE7E0100CAB507 /* CompFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E8C4D125AE7E0100CAB507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00E8C4D325AE7E0100CAB507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00E8C4D525AE7E0100CAB507 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		00E8C4D825AE7E0100CAB507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00E8C4DA25AE7E0600CAB507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00E8C4DD25AE7E0600CAB507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E8C4DF25AE7E0600CAB507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,32 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00A0D5A725D37C5D00C6F561 /* Main App */ = {
-			isa = PBXGroup;
-			children = (
-				00DB542F25CDF3600068F7E7 /* MainTabBarController.swift */,
-				0065E75425D3977C009A1A49 /* ChallengesViewController.swift */,
-				00A0D5A925D37CE300C6F561 /* DashboardViewController.swift */,
-				00AC7E7925D3861F009755EA /* SocialFeedViewController.swift */,
-				0065E75125D3969F009A1A49 /* AddViewController.swift */,
-				0065E75725D397F3009A1A49 /* ProfileViewController.swift */,
-			);
-			path = "Main App";
-			sourceTree = "<group>";
-		};
-		00DB545225CE1F540068F7E7 /* Onboarding Views */ = {
-			isa = PBXGroup;
-			children = (
-				00DB545425CE202A0068F7E7 /* BirthdateView.swift */,
-				00DB545725CE204C0068F7E7 /* GenderView.swift */,
-				00DB545A25CE20670068F7E7 /* WorkoutExperienceView.swift */,
-				00DB545D25CE20870068F7E7 /* WorkoutTypeView.swift */,
-				00DB546025CE20A20068F7E7 /* IntensityView.swift */,
-				00DB546325CE20BD0068F7E7 /* AppleHealthView.swift */,
-			);
-			path = "Onboarding Views";
-			sourceTree = "<group>";
-		};
 		00E8C4C525AE7E0100CAB507 = {
 			isa = PBXGroup;
 			children = (
@@ -136,9 +70,8 @@
 				00E8C4D125AE7E0100CAB507 /* AppDelegate.swift */,
 				00E8C4D325AE7E0100CAB507 /* SceneDelegate.swift */,
 				00E8C4DA25AE7E0600CAB507 /* Assets.xcassets */,
+				00E8C4DC25AE7E0600CAB507 /* LaunchScreen.storyboard */,
 				00E8C4DF25AE7E0600CAB507 /* Info.plist */,
-				00B6585B25D085BC000DC811 /* Constants.swift */,
-				00B6585E25D09978000DC811 /* UserDefaults_Helpers.swift */,
 			);
 			path = CompFit;
 			sourceTree = "<group>";
@@ -146,19 +79,10 @@
 		00E8C4E625AE7E2500CAB507 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				00E8C4D525AE7E0100CAB507 /* WelcomeViewController.swift */,
 				0009565825BBD3690045ECE2 /* RegisterViewController.swift */,
 				003E547D25BFDB4700B95672 /* LoginViewController.swift */,
 				00311B3D25C1062A00239101 /* OnboardingViewController.swift */,
-=======
-				00A0D5A725D37C5D00C6F561 /* Main App */,
-				00DB543225CDF3DA0068F7E7 /* MainNavigationController.swift */,
-				00DB543F25CDFEA30068F7E7 /* WelcomeViewController.swift */,
-				00DB544225CE082A0068F7E7 /* LoginViewController.swift */,
-				00DB544525CE1A010068F7E7 /* RegisterViewController.swift */,
-				00DB544F25CE1F330068F7E7 /* OnboardingViewController.swift */,
->>>>>>> project_without_storyboard
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,11 +98,7 @@
 		00E8C4E925AE7E3E00CAB507 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				00E8C4D725AE7E0100CAB507 /* Main.storyboard */,
-=======
-				00DB545225CE1F540068F7E7 /* Onboarding Views */,
->>>>>>> project_without_storyboard
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,7 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E8C4DE25AE7E0600CAB507 /* LaunchScreen.storyboard in Resources */,
 				00E8C4DB25AE7E0600CAB507 /* Assets.xcassets in Resources */,
+				00E8C4D925AE7E0100CAB507 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,40 +173,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				003E547E25BFDB4700B95672 /* LoginViewController.swift in Sources */,
 				00E8C4D625AE7E0100CAB507 /* WelcomeViewController.swift in Sources */,
 				00E8C4D225AE7E0100CAB507 /* AppDelegate.swift in Sources */,
 				00E8C4D425AE7E0100CAB507 /* SceneDelegate.swift in Sources */,
 				00311B3E25C1062A00239101 /* OnboardingViewController.swift in Sources */,
-=======
-				00DB546425CE20BD0068F7E7 /* AppleHealthView.swift in Sources */,
-				00A0D5AA25D37CE300C6F561 /* DashboardViewController.swift in Sources */,
-				00DB544025CDFEA30068F7E7 /* WelcomeViewController.swift in Sources */,
-				00DB544625CE1A010068F7E7 /* RegisterViewController.swift in Sources */,
-				00AC7E7A25D3861F009755EA /* SocialFeedViewController.swift in Sources */,
-				00B6585F25D09979000DC811 /* UserDefaults_Helpers.swift in Sources */,
-				0065E75825D397F3009A1A49 /* ProfileViewController.swift in Sources */,
-				00DB543325CDF3DA0068F7E7 /* MainNavigationController.swift in Sources */,
-				00E8C4D225AE7E0100CAB507 /* AppDelegate.swift in Sources */,
-				00DB543025CDF3600068F7E7 /* MainTabBarController.swift in Sources */,
-				00DB545825CE204C0068F7E7 /* GenderView.swift in Sources */,
-				0065E75225D3969F009A1A49 /* AddViewController.swift in Sources */,
-				00B6585C25D085BD000DC811 /* Constants.swift in Sources */,
-				00E8C4D425AE7E0100CAB507 /* SceneDelegate.swift in Sources */,
-				00DB544325CE082A0068F7E7 /* LoginViewController.swift in Sources */,
-				00DB546125CE20A20068F7E7 /* IntensityView.swift in Sources */,
-				00DB545B25CE20670068F7E7 /* WorkoutExperienceView.swift in Sources */,
-				0065E75525D3977C009A1A49 /* ChallengesViewController.swift in Sources */,
-				00DB545025CE1F330068F7E7 /* OnboardingViewController.swift in Sources */,
-				00DB545525CE202A0068F7E7 /* BirthdateView.swift in Sources */,
-				00DB545E25CE20880068F7E7 /* WorkoutTypeView.swift in Sources */,
->>>>>>> project_without_storyboard
 				0099471825BCF324007D4A99 /* UserModel.swift in Sources */,
+				0009565925BBD3690045ECE2 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00E8C4D725AE7E0100CAB507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E8C4D825AE7E0100CAB507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00E8C4DC25AE7E0600CAB507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E8C4DD25AE7E0600CAB507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E8C4E025AE7E0600CAB507 /* Debug */ = {
@@ -414,7 +332,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CompFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompFit.CompFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -432,7 +350,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CompFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompFit.CompFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
